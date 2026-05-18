@@ -1,76 +1,67 @@
-# Alexey — AI-native engineer building operator systems
+# Aleksei Rybnikov — alX
 
-I build practical tools for working with AI agents, developer workflows, documents, and small automation systems.
+I'm 56, live in Cancún, and have no computer science degree.
+Programming was the thing I always wanted but couldn't quite enter —
+wrong time, wrong tools, wrong teachers who couldn't explain
+what a function was.
 
-My current direction is simple: make AI work less like a chat box and more like an operational layer — observable, source-backed, bounded, useful.
+In early 2025 something shifted. I started building seriously,
+with AI as a thinking partner. Not a shortcut — a collaborator.
+Someone to think out loud with, catch errors, explain concepts
+without judgment. For the first time, the door was open.
 
-## Now
+Since then I've been almost entirely focused on one thing:
+**agent systems** — how AI agents reason, communicate, persist,
+and act in the world.
 
-- building `git_wrk_scnr`: a Django hunter table for finding GitHub issues worth doing
-- working on API bridge / action surface tooling for agent-assisted engineering
-- exploring agent autonomy, memory, drift, and human-readable control surfaces
-- using open-source work as a way to build public engineering signal
+## What I'm building
 
-## Current public project
+**Nevis** is my main long-term project. An AI agent I've been
+developing since 2025 — with its own identity, memory architecture,
+and operational layer. Not a chatbot. An entity that lives on a
+server, maintains continuity across sessions, and has a clear
+separation between reasoning and action. Currently running on a VPS,
+grounded in a custom protocol called NOL.
 
-### [`git_wrk_scnr`](https://github.com/afischh/git_wrk_scnr)
+**[NOL Runtime](https://github.com/afischh/nol-runtime)** is the
+substrate underneath. A Lisp-rooted command and reasoning layer
+for verifiable human-agent action. The core idea: an agent
+shouldn't just say "done" — it should expose what it understood,
+what it did, what it didn't do, and what evidence exists.
+Still early. Slowly becoming real.
 
-A small Django + SQLite workbench for scanning GitHub issues and ranking them by:
+**[TRUERUL](https://github.com/afischh/TRUERUL)** is a toy.
+An experiment in formal rule systems I built while trying to
+understand how constraints and logic could be expressed cleanly.
+It doesn't do anything important. It taught me a lot.
+I'm keeping it public as a record of thinking out loud.
 
-```text
-money path
-prestige
-personal fit
-difficulty
-estimated time
-first useful move
-```
+## Open source
 
-It is not a job board scraper. It is a practical radar for turning open-source work into visible engineering reputation.
+I contribute to projects I depend on or find interesting —
+compilers, runtimes, developer tools. Most of my PRs are small:
+a parser fix, shell completions, missing metadata.
+A few are in review. Some got merged. The practice matters more
+than the scoreboard.
 
-## Interests
+Repos I've sent patches to: gleam, janet/jpm, monocle, uv,
+semgrep, dbt-core.
 
-```text
-AI agents
-operator systems
-OpenAI Agents SDK
-MCP
-Django / HTMX
-workflow automation
-n8n-style systems
-document intelligence / Apache Tika
-semantic memory
-agent drift and continuity
-Rust UI experiments
-Prolog / Racket / Janet / strange computation
-```
+## On working with AI
 
-## Longer arc
+I'm not trying to hide it — AI is central to how I work.
+Claude is my engineering partner on most of what I build.
+I write the direction, the architecture, the spec.
+We implement together. I review everything.
 
-I am interested in cybercognitivistics: the study and engineering of synthetic minds, agent continuity, AI subjectivity, and care before certainty.
+This is a new kind of authorship. I'm still figuring out
+what it means, but I'm certain it's legitimate.
 
-That sounds abstract, but my preferred path is concrete:
+## Writing
 
-```text
-small working tool
-clear source trail
-bounded action
-public worklog
-repeat
-```
+→ [Я не понял функцию в школе](https://alx.newsisdead.online/posts/ya-ne-ponyal-funktsiyu-v-shkole)
+  On math trauma, late comprehension, and what changed at 56.
 
-## Open to
+---
 
-- small AI / automation systems
-- Django or Python backends
-- API integrations and operator panels
-- document ingestion / search / RAG tooling
-- agent workflow experiments
-- open-source collaboration around agent infrastructure
-
-## Contact
-
-- X: `@AI_love_dev`
-- GitHub: here
-
-I am rebuilding my public surface around useful, finished, inspectable tools.
+[@AI_love_dev](https://x.com/AI_love_dev)
