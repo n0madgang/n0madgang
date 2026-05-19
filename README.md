@@ -44,8 +44,7 @@ a parser fix, shell completions, missing metadata.
 A few are in review. Some got merged. The practice matters more
 than the scoreboard.
 
-Repos I've sent patches to: gleam, janet/jpm, monocle, uv,
-semgrep, dbt-core.
+Repos I've sent patches to: janet/jpm, monocle, semgrep, dbt-core.
 
 ## On working with AI
 
