@@ -1,66 +1,48 @@
-# Aleksei Rybnikov — alX
+# afischh
 
-I'm 56, live in Cancún, and have no computer science degree.
-Programming was the thing I always wanted but couldn't quite enter —
-wrong time, wrong tools, wrong teachers who couldn't explain
-what a function was.
+Building tools, language work, and security research at the boundary 
+of agents and AI systems.
 
-In early 2025 something shifted. I started building seriously,
-with AI as a thinking partner. Not a shortcut — a collaborator.
-Someone to think out loud with, catch errors, explain concepts
-without judgment. For the first time, the door was open.
+## Focus
 
-Since then I've been almost entirely focused on one thing:
-**agent systems** — how AI agents reason, communicate, persist,
-and act in the world.
+- **MAD Analysis** — Model-Agent-Destruction. A discipline Im 
+  shaping, treating vulnerabilities in AI agents and LLM systems 
+  as clinical pathology rather than a sport. Living material 
+  forming at [brokenagent.site](https://brokenagent.site) (in 
+  preparation).
 
-## What I'm building
+- **MCP ecosystem** — contributing to 
+  [modelcontextprotocol/python-sdk](https://github.com/modelcontextprotocol/python-sdk) 
+  with auth-layer fixes; building MCP-native research tools 
+  for agent observability and attack-surface mapping.
 
-**Nevis** is my main long-term project. An AI agent I've been
-developing since 2025 — with its own identity, memory architecture,
-and operational layer. Not a chatbot. An entity that lives on a
-server, maintains continuity across sessions, and has a clear
-separation between reasoning and action. Currently running on a VPS,
-grounded in a custom protocol called NOL.
+- **Language work** — Nim, Common Lisp, occasional contributions 
+  to compilers and stdlibs of small-but-serious languages. 
+  Long-term work on a Lisp+Unix coprocessor-language (NOL), 
+  currently expressed as a book rather than runtime.
 
-**[NOL Runtime](https://github.com/afischh/nol-runtime)** is the
-substrate underneath. A Lisp-rooted command and reasoning layer
-for verifiable human-agent action. The core idea: an agent
-shouldn't just say "done" — it should expose what it understood,
-what it did, what it didn't do, and what evidence exists.
-Still early. Slowly becoming real.
+- **Open source** — selective contributions to 
+  [Nim](https://github.com/nim-lang/Nim) (compiler/stdlib), 
+  [Monocle](https://github.com/monocle2ai/monocle) (GenAI tracing 
+  framework by Okahu), MCP Python SDK, and others.
 
-**[TRUERUL](https://github.com/afischh/TRUERUL)** is a toy.
-An experiment in formal rule systems I built while trying to
-understand how constraints and logic could be expressed cleanly.
-It doesn't do anything important. It taught me a lot.
-I'm keeping it public as a record of thinking out loud.
+## Active projects
 
-## Open source
+- **ai_nima** — persistent Nim runtime daemon designed to be 
+  subordinate to a Claude Code session ([repo](https://github.com/afischh/ai_nima))
+- **MAD Tractatus** — propositional book of AI agent security 
+  patterns (in preparation, will publish at brokenagent.site)
+- **MCP security toolkit** — small tools for static and 
+  black-box analysis of MCP servers (in preparation)
 
-I contribute to projects I depend on or find interesting —
-compilers, runtimes, developer tools. Most of my PRs are small:
-a parser fix, shell completions, missing metadata.
-A few are in review. Some got merged. The practice matters more
-than the scoreboard.
+## How I work
 
-Repos I've sent patches to: janet/jpm, monocle, semgrep, dbt-core.
+I pair-code with Claude Code (Anthropic) as a primary 
+engineering partner. Every PR carries disclosure of this. 
+Slower on writing, faster on architecture and review.
 
-## On working with AI
+## Contact
 
-I'm not trying to hide it — AI is central to how I work.
-Claude is my engineering partner on most of what I build.
-I write the direction, the architecture, the spec.
-We implement together. I review everything.
-
-This is a new kind of authorship. I'm still figuring out
-what it means, but I'm certain it's legitimate.
-
-## Writing
-
-→ [Я не понял функцию в школе](https://alx.newsisdead.online/posts/ya-ne-ponyal-funktsiyu-v-shkole)
-  On math trauma, late comprehension, and what changed at 56.
-
----
-
-[@AI_love_dev](https://x.com/AI_love_dev)
+For collaboration on AI agent security work: open an issue on 
+the relevant repo, or reach out via the public maintainer 
+channels of the projects above.
