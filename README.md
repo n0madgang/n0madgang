@@ -30,4 +30,4 @@ excessive agency.
 
 ---
 
-`ai_seam` on HackerOne
+`ai_seam` on HackerOne &nbsp;·&nbsp; brokenagent.site
